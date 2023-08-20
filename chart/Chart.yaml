@@ -1,0 +1,29 @@
+annotations:
+  artifacthub.io/changes: |
+    - Bump appVersion to 0.3.0
+  artifacthub.io/images: |
+    - name: utkuozdemir/nvidia_gpu_exporter
+      image: docker.io/utkuozdemir/nvidia_gpu_exporter:0.3.0
+  artifacthub.io/license: MIT
+apiVersion: v2
+appVersion: 0.3.0
+description: Nvidia GPU exporter for prometheus using nvidia-smi binary to gather
+  metrics.
+home: https://github.com/utkuozdemir/nvidia_gpu_exporter
+icon: https://utkuozdemir.org/helm-charts/nvidia.png
+keywords:
+- nvidia
+- gpu
+- exporter
+- nvidia-smi
+- nvidia-gpu-exporter
+- prometheus
+maintainers:
+- email: uoz@protonmail.com
+  name: Utku Özdemir
+  url: https://utkuozdemir.org
+name: nvidia-gpu-exporter
+sources:
+- https://github.com/utkuozdemir/helm-charts
+type: application
+version: 0.3.1
